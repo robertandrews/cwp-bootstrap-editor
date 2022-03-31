@@ -16,7 +16,9 @@ It is intended to be used by site owners whose themes already utilise Bootstrap.
 
 The Bootstrap CSS framework prefers certain component elements to include specific attributes, even particular tag formulation.
 
-For example, see, in [Bootstrap's documentation](https://getbootstrap.com/docs/5.0/content/typography/#blockquotes), how `<blockquote>` requires more than just the element itself, it also requires a class of `.blockquote`, and even a wrapping element of `<figure>`.
+For example, see, in [Bootstrap's documentation](https://getbootstrap.com/docs/5.0/content/typography/#blockquotes), how `<blockquote>` requires more than just the element itself, it also requires a class of `.blockquote`, and even a wrapping element of `<figure>`...
+
+![Bootstrap blockquote docs](blockquote.png)
 
 When WordPress users write blog posts using basic elements like `<blockquote>`, these extras are not added.
 
@@ -32,7 +34,7 @@ At time of writing, the following optimisations are enabled...
 
 ### 2. Post editor harmonisation
 
-![Plugin screenshot](screenshot.png)
+![Post editor screenshot](screenshot.png)
 
 The plugin harmonises the appearance of posts in the admin post editor with the native Bootstrap appearance.
 
