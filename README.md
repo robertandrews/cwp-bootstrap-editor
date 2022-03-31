@@ -16,7 +16,7 @@ It is intended to be used by site owners whose themes already utilise Bootstrap.
 
 The Bootstrap CSS framework prefers certain component elements to include specific attributes, even particular tag formulation.
 
-See, in [Bootstrap's documentation](https://getbootstrap.com/docs/5.0/content/typography/#blockquotes), how `<blockquote>` requires more than just the element itself, it also requires a class of `.blockquote`, and even a wrapping element of `<figure>`.
+For example, see, in [Bootstrap's documentation](https://getbootstrap.com/docs/5.0/content/typography/#blockquotes), how `<blockquote>` requires more than just the element itself, it also requires a class of `.blockquote`, and even a wrapping element of `<figure>`.
 
 When WordPress users write blog posts using basic elements like `<blockquote>`, these extras are not added.
 
