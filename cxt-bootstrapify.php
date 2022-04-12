@@ -72,10 +72,11 @@ function bootstrap_blockquote( $content ) {
     // libxml_use_internal_errors(true);
     // $dom->loadHTML($content, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
-    $content = utf8_decode($content); // https://stackoverflow.com/questions/1269485/how-do-i-tell-domdocument-load-what-encoding-i-want-it-to-use
+    // $content = utf8_decode($content); // https://stackoverflow.com/questions/1269485/how-do-i-tell-domdocument-load-what-encoding-i-want-it-to-use
     $dom = new DOMDocument('1.0', 'iso-8859-1');
     libxml_use_internal_errors(true);
-    $dom->loadHTML($content);
+    // $dom->loadHTML($content);
+    $dom->loadhtml(mb_convert_encoding($content, 'HTML-ENTITIES', 'UTF-8'));
     libxml_clear_errors();
 
     // For every <blockquote> found
