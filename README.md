@@ -54,11 +54,3 @@ Your WordPress theme must already be Bootstrap-enabled.
 Add the plugin to WordPress and activate it.
 
 The plugin code makes use of PHP's DOMDocument, which some observers say is limited and frustrating, to enhance HTML elements.
-
-## Arbitrary change
-
-This is an arbitrary change.
-
-I just created a new branch for this repo, `develop`.
-
-I am keen to know what happens next.
