@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name:    Context WP Editor Bootstrap
+Plugin Name:    CWP Bootstrap Post Editor
 Description:    Apply Bootstrap styling to the WordPress post editor.
 Text-Domain:    cxt-wp-editor-bootstrap
 Version:        1.2
