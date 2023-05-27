@@ -1,4 +1,4 @@
-# Context WP Editor Bootstrap
+# Context WP Bootstrap Editor
 
 Tested up to: 5.9.1  
 Tags: posts, bootstrap  
